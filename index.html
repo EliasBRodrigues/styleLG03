@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <header>Login</header>
+        <form action="#" id="form">
+            <div class="formFirst">
+                <div class="detailPersonal">
+
+                <div class="fields">
+                    <div class="inputField">
+                        <input required type="text" oninput="nameValidate()" placeholder="Nome completo" >
+                    </div>
+
+                    <div class="inputField">
+                        <input type="email" oninput="emailValidate()" placeholder="usuario@usuario.com" required>
+                    </div>
+
+                    <div class="inputField">
+                        <input type="password" oninput="passMain()" placeholder="Senha com 8 caracteres" required>
+                    </div>
+
+                    <div class="inputField">
+                        <input type="password" oninput="comparePassword()" placeholder="Confirmar senha" required>
+                    </div>
+
+                <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src="components/script.js"></script>
+</body>
+</html>

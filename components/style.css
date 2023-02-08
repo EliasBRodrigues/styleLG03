@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: cadetblue; */
+    background: url("https://wallpapertag.com/wallpaper/full/6/1/6/742533-colors-background-2560x1600-pc.jpg");
+  }
+  
+  #container{
+    /* background-color: #fff; */
+    background: url("https://th.bing.com/th/id/R.7ff8b0cea0fcf53098673b2b26f05625?rik=XFg%2f3%2bOypUVopA&pid=ImgRaw&r=0");
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 16px;
+    margin: 0 15px;
+  }
+  
+  #container header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  
+  .inputField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  input{
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 0 15px;
+  height: 32px;
+  margin: 20px 0;
+  }
+  
+  button{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 26%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1b47c0;
+    color: #fff;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  
+button:hover{
+    background-color: rgb(53, 167, 129);
+}
